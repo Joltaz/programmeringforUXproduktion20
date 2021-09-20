@@ -1,0 +1,38 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+color: rgb(73, 73, 73);
+font-size: 1.2em;
+}
+
+h3 {
+    color: darkblue;
+}
+
+img {
+    width: 250px;
+}
+
+table {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+th {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 16px;
+    text-align: left;
+}
+
+td {
+    border: black;
+    border-width: 1px;
+    border-style: dashed;
+    padding: 10px;
+}
