@@ -11,40 +11,54 @@
 
 <body>
     <header>
-        <div class="meny">
+        <div>
+            <a class="menyval" href="index.html">Hem</a>
+        </div>
+        <div>
             <h3 class="logga">Profilsajt</h3>
-            <nav>
-                <a class="menyval" href="index.html">Hem</a>
-                <a class="menyval" href="cv.html">CV</a>
-            </nav>
+        </div>
+        <div>
+            <a class="menyval" href="cv.html">CV</a>
         </div>
     </header>
     <main>
         <h1>Mitt CV</h1>
-        <section class="jobb">
-            <h3>Jobberfarenhet</h3>
-            <ul>
-                <li>Inera</li>
-                <li>ICA</li>
-                <li>Bonnier</li>
-            </ul>
+        <section class="cv">
+            <div class="jobb">
+                <h3>Jobberfarenhet</h3>
+                <ul>
+                    <li>Inera</li>
+                    <li>ICA</li>
+                    <li>Bonnier</li>
+                </ul>
+            </div>
+            <div class="plugg">
+                <h3>Plugg</h3>
+                <ul>
+                    <li>Södertörn</li>
+                    <li>Nackademin</li>
+                    <li>Sofiaskolan</li>
+                </ul>
+            </div>
         </section>
-        <section class="skola">
-            <h3>Plugg</h3>
-            <ul>
-                <li>Södertörn</li>
-                <li>Nackademin</li>
-                <li>Sofiaskolan</li>
-            </ul>
-        </section>
-        <h3>Skriv något kul till mig</h3>
-        <form action="index.html">
-            <label for="fname">Förnamn</label>
-            <input type="text" placeholder="Skriv här...">
-            <label for="meddelande">Meddelande</label>
-            <input type="text" placeholder="Skriv här...">
+        <section>
+            <h3>Skriv något kul till mig</h3>
+            <form action="index.html">
+                <div class="name">
+                    <label for="fname">Förnamn</label>
+                    <input type="text" placeholder="Skriv här...">
+                    <label for="lname">Efternamn</label>
+                    <input type="text" placeholder="Skriv här...">
+                </div>
+                <div>
+                    <label for="meddelande">Meddelande</label>
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Skriv här" rows="4" cols="50"></textarea>
+        </div>
             <input type="submit">
         </form>
+    </section>
     </main>
 
 </body>
